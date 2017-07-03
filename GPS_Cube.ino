@@ -183,9 +183,9 @@ void loop()
     {
       displayOff();
       setXY(0,0);
-  
-      for(int i=0;i<128*8;i++)     // show 128* 64 Logo
-        SendChar(pgm_read_byte(logo+i));
+	  //отключим прорисовку лого
+      /*for(int i=0;i<128*8;i++)     // show 128* 64 Logo
+        SendChar(pgm_read_byte(logo+i));*/
     
       displayOn();
       sendStrXY("Carlos Sancho",7,2);
