@@ -189,7 +189,7 @@ void loop()
     
       displayOn();
       sendStrXY("Carlos Sancho",7,2);
-      sendStrXY("v1.2", 0, 12);
+      sendStrXY("v1.3", 0, 12);
       delay(5000);
       clear_display();
       sendStrXY("Hardware Design by Mike Rankin",0,0);
